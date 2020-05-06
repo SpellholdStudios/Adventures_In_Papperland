@@ -1,0 +1,41 @@
+//THE BEATLES AUTOSCRIPT FOR ALL
+
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		RunAwayFrom(NearestEnemyOf(Myself),150)
+END
+
+IF
+	AttackedBy([GOODCUTOFF],DEFAULT)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		Enemy()
+		SetGlobal("BeatleAttacked","AR0510",1)
+END
+
+IF
+	Global("PlayOver","AR0510",1)
+THEN
+	RESPONSE #100
+		RandomWalk()
+END
+
+IF
+	Allegiance(Myself,NEUTRAL)
+	Global("BeatleAttacked","AR0510",1)
+THEN
+	RESPONSE #100
+		Enemy()
+END
+
+IF
+	AttackedBy([ANYONE],DEFAULT)
+THEN
+	RESPONSE #100
+		RunAwayFrom(LastAttackerOf(Myself),150)
+		SetGlobal("BeatleAttacked","AR0510",1)
+END

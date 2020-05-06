@@ -1,0 +1,11 @@
+IF
+	OnCreation()
+	Global("BeatleSpawn","AR0510",0)
+THEN
+	RESPONSE #100
+		CreateCreature("CBJOHNLN",[495.835],10)
+		CreateCreature("CBPAULMC",[397.853],10)
+		CreateCreature("CBGEOHAR",[454.909],10)
+		CreateCreature("CBRINGOS",[655.998],10)
+		SetGlobal("BeatleSpawn","AR0510",1)
+END
