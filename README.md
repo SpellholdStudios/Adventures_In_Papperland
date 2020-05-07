@@ -6,7 +6,7 @@
 <div align="center"><h1>Adventures in Papperland</h1>
 
 <h3>A mod hosted by Spellhold Studios for Baldur's Gate II: SoA and ToB (classical and EE games),<br>
-BG:EE, Baldur's Gate Trilogy, EET and IWD:EE<h3>
+Baldur's Gate Trilogy and EET<h3>
 
 </div><br />
 
@@ -166,10 +166,10 @@ Translated to weidu by Badgert from www.aerie-ru.info (iklest@narod.ru), works w
 
 <hr>
 
-
+Five Flagons Inn Theater
 ## <a name="versions" id="versions"></a>Version History
 
-#### Version 6 (13 May 2020)
+#### Version 6 ( May 2020)
 
 - Added *aip.ini* metadata file to support AL|EN's "Project Infinity".
 - Renamed *setup-aip.tp2* -> *aip.tp2* to support AL|EN's "Project Infinity".
@@ -180,7 +180,7 @@ Translated to weidu by Badgert from www.aerie-ru.info (iklest@narod.ru), works w
 - Added native EET compatibility.
 - sar0510.baf: Included BWP Fixpack hotfix (<a href="http://www.shsforums.net/topic/47635-notes-oddities-and-possible-bugs-in-my-bwp-game-spoilers/?p=566555">Lollorian's methodical OnCreation() removal from blocks that have a LOCALS/GLOBAL associated with them</a>).
 - Added German and Spanish WeiDU prompts.
-- Proofread English translations.
+- Proofread English .tra files.
 - Updated Russian translation (thanks Austin!).
 - Added English translation (from the BiG World Textpack German project).
 - Removed useless "*backup*" folder.
@@ -192,7 +192,7 @@ Translated to weidu by Badgert from www.aerie-ru.info (iklest@narod.ru), works w
 
 ## 
 
-#### Version 5
+#### Version 5 (9 July, 2009)
 
 - Changed `README` command.
 - Added Spanish translation by Clan REO.
@@ -200,7 +200,7 @@ Translated to weidu by Badgert from www.aerie-ru.info (iklest@narod.ru), works w
 
 ## 
 
-#### Version 4
+#### Version 4 (8 June, 2009)
 
 - Corrected the `COMPILE` command.
 - Added `VERSION` flag.
@@ -215,7 +215,7 @@ Translated to weidu by Badgert from www.aerie-ru.info (iklest@narod.ru), works w
 
 ## 
 
-#### Version 2
+#### Version 2 (25 April, 2007)
 
 - WeiDU conversion by Badgert.
 - Added Russian translation by www.aerie.ru.
