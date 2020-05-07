@@ -178,7 +178,7 @@ Translated to weidu by Badgert from www.aerie-ru.info (iklest@narod.ru), works w
 - Added component `DESIGNATED` number and "*adventures_in_papperland*" `LABEL`.
 - Added missing `HANDLE_CHARSETS` function to convert string entries for EE games.
 - Added native EET compatibility.
-- Added French, German and Polish WeiDU prompts.
+- Added German and Spanish WeiDU prompts.
 - Proofread English translations.
 - Updated Russian translation (thanks Austin!).
 - Added English translation (from the BiG World Textpack German project).
