@@ -3,7 +3,7 @@ AUTHOR ~Charles Bisson, Badgert(WeiDU)~
 
 VERSION ~v5~
 
-README ~aip/readme-aip.txt~ 
+README ~aip/readme-aip.txt~
 
 ALWAYS
 
@@ -51,22 +51,27 @@ LANGUAGE ~Espanol (traduccion por Clan REO)~
  *  Adventures in Papperland  *
  * ========================== */
 BEGIN @0
+DESIGNATED 0 LABEL ~adventures_in_papperland~
+REQUIRE_PREDICATE GAME_IS ~bg2 tob bgt bg2ee eet~ @1	// ~You must have BG2, ToB, BGT, BG2:EE or EET installed to install Adventures In Papperland.~
 
-COPY ~aip/cre/CBGEOHAR.cre~         ~override/CBGEOHAR.cre~       
-  SAY NAME1 @1 
-  SAY NAME2 @1 
+/* ------------------- *
+ *  Install creatures  *
+ * ------------------- */
+COPY ~aip/cre/cbgeohar.cre~ ~override~
+	SAY NAME1 @11
+	SAY NAME2 @11
 
-COPY ~aip/cre/CBJOHNLN.cre~         ~override/CBJOHNLN.cre~       
-  SAY NAME1 @2 
-  SAY NAME2 @2 
+COPY ~aip/cre/cbjohnln.cre~ ~override~
+	SAY NAME1 @12
+	SAY NAME2 @12
 
-COPY ~aip/cre/CBPAULMC.cre~         ~override/CBPAULMC.cre~       
-  SAY NAME1 @3 
-  SAY NAME2 @3 
+COPY ~aip/cre/cbpaulmc.cre~ ~override~
+	SAY NAME1 @13
+	SAY NAME2 @13
 
-COPY ~aip/cre/CBRINGOS.cre~         ~override/CBRINGOS.cre~       
-  SAY NAME1 @4 
-  SAY NAME2 @4
+COPY ~aip/cre/cbringos.cre~ ~override~
+	SAY NAME1 @14
+	SAY NAME2 @14
 
 COPY ~aip/misc~         ~override~
 
