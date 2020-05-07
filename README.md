@@ -27,13 +27,6 @@ BG:EE, Baldur's Gate Trilogy, EET and IWD:EE<h3>
 </div>
 
 <hr>
-[WeiDU-GE]
-@0=Abenteuer im Pfefferland
-Tra=2
-
-[WeiDU-SP]
-@0=Adventuras en Papperland
-Tra=3
 
 
 ## <a name="intro" id="intro"></a>Overview

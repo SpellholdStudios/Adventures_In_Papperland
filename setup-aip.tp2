@@ -5,6 +5,29 @@ VERSION ~v5~
 
 README ~aip/readme-aip.txt~ 
 
+ALWAYS
+
+	/* --------------------------------------------------------------------------------------------- *
+	 *    Convert strings to UTF-8 for EE games                                                    *
+	 *    No exception, everything needs to be converted                                             *
+	 *    setup.tra contains in game texts as well as installation texts and need to be converted    *
+	 * -----------------------------------------------------------------------*--------------------- */
+	ACTION_DEFINE_ARRAY cb#noconvert BEGIN END
+	// any tra files used in LANGUAGE need to be reloaded after UTF-8 conversion
+	ACTION_DEFINE_ARRAY cb#reload BEGIN setup END
+
+	LAF HANDLE_CHARSETS
+		INT_VAR
+			infer_charsets = 1
+		STR_VAR
+			tra_path = EVAL ~%MOD_FOLDER%/lang~
+			noconvert_array = cb#noconvert
+			reload_array = cb#reload
+	END
+
+END
+
+
 AUTO_TRA ~aip/lang/%s~
 
 LANGUAGE ~English~
