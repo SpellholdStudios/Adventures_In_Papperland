@@ -7,18 +7,26 @@ README ~aip/readme-aip.txt~
 
 AUTO_TRA ~aip/lang/%s~
 
-LANGUAGE ~English~ ~english~
+LANGUAGE ~English~
+         ~english~
          ~aip/lang/english/setup.tra~
 
-LANGUAGE ~Russian (translation Austin & aerie.ru)~ ~russian~
+LANGUAGE ~Russian (translation Austin & aerie.ru)~
+         ~russian~
          ~aip/lang/russian/setup.tra~
 
-LANGUAGE ~Deutsch (Uebersetzung von Drogan Di'Umptu)~ ~deutsch~
-         ~aip/lang/deutsch/setup.tra~
+LANGUAGE ~Deutsch (Uebersetzung von Drogan Di'Umptu)~
+         ~german~
+         ~aip/lang/german/setup.tra~
 
-LANGUAGE ~Castellano (traducido por Clan REO)~ ~spanish~
+LANGUAGE ~Espanol (traduccion por Clan REO)~
+         ~spanish~
          ~aip/lang/spanish/setup.tra~
 
+
+/* ========================== *
+ *  Adventures in Papperland  *
+ * ========================== */
 BEGIN @0
 
 COPY ~aip/cre/CBGEOHAR.cre~         ~override/CBGEOHAR.cre~       

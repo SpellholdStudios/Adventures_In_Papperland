@@ -1,5 +1,5 @@
 
-![Latest Release](https://img.shields.io/github/v/release/gwendolynefreddy/adventures_in_papperland?include_prereleases&color=gold)<a name="top" id="top">
+![Latest Release](https://img.shields.io/github/v/release/gwendolynefreddy/adventures_in_papperland?include_prereleases&color=darkred)<a name="top" id="top">
 ![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20macos%20%7C%20linux&color=informational)
 ![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20French%20%7C%20Russian&color=limegreen)
 
@@ -7,6 +7,9 @@
 
 <h3>A mod hosted by Spellhold Studios for Baldur's Gate II: SoA and ToB (classical and EE games),<br>
 BG:EE, Baldur's Gate Trilogy, EET and IWD:EE<h3>
+
+</div><br />
+
 
 **Author:** CBisson  
 **Mod Website:** <a href="http://www.shsforums.net/forum/127-mod-resurrections/">Spellhold Studios</a>  
@@ -130,19 +133,18 @@ In addition to the methods above for removing individual components, you can com
 ## <a name="credits" id="credits"></a>Credits and Acknowledgements
 
 **Author:** <a href="http://www.shsforums.net/user/3378-cbisson/">CBisson</a>  
+Translated to weidu by Badgert from www.aerie-ru.info (iklest@narod.ru), works with any other weidu modes.
 
 ## 
 
 #### Special Acknowledgements to:
 
 - Strifestrike: For coming up with the idea for this mod and being one of my original testers.
-- Beren: The first person that I know of to have beaten the Firkraag mod. He was my primary tester and a really swell guy!
-- Community at SP: For supporting my modding hobby and providing a good environment.
-- Weimer: I actually used his scripts as a basis for making this one. He also developed the WeiDU tool, which is what this mod uses.
-- The BiG World Textpack German project Team: German translation.
-- SoM (part of CoB Clan): Polish translation.
-- A.E.R.I.E.ru Team: Russian translation.
-- Mathrim Cauthon: French translation.
+- The BiG World Textpack German project Team: English translation.
+- Clan REO Team: Spanish translation.
+- Drogan Di'Umptu: German translation.
+- Austin and A.E.R.I.E.ru Team: Russian translation.
+- Badgert: first WeiDU conversion.
 
 ## 
 
@@ -157,8 +159,8 @@ In addition to the methods above for removing individual components, you can com
 
 #### Copyrights Information
 
-###### Adventures in Papperland is not developed, supported, or endorsed by BioWare&trade; or Interplay/BlackIsle, Overhaul, Beamdog or the Wizards of the Coast. It was developed by Rastor, based on material from the game Baldur's Gate II and its expansion.
-###### All mod content is &copy;Rastor.
+###### Adventures in Papperland is not developed, supported, or endorsed by BioWare&trade; or Interplay/BlackIsle, Overhaul, Beamdog or the Wizards of the Coast. It was developed by CBisson, based on material from the game Baldur's Gate II and its expansion.
+###### All mod content is &copy;CBisson.
 ###### Baldur's Gate II: Shadows of Amn and Baldur's Gate II: Throne of Bhaal &copy; TSR, Inc. The BioWare Infinity Engine is &copy; BioWare Corp. All other trademarks and copyrights are property of their respective owners.
 
 ###### This mod was created to be freely enjoyed by all Baldur's Gate II players, and its content is free of rights. However, it should not be sold, published, compiled or redistributed in any form without the consent of the author.
@@ -182,10 +184,11 @@ In addition to the methods above for removing individual components, you can com
 - Added missing `REQUIRE_PREDICATE` process to avoid installing the mod in inaccurate games.
 - Added component `DESIGNATED` number and "*adventures_in_papperland*" `LABEL`.
 - Added missing `HANDLE_CHARSETS` function to convert string entries for EE games.
-- Added native BG2:EE and EET compatibilities.
+- Added native EET compatibility.
 - Added French, German and Polish WeiDU prompts.
 - Proofread English translations.
-- Added German translation (from the BiG World Textpack German project).
+- Updated Russian translation (thanks Austin!).
+- Added English translation (from the BiG World Textpack German project).
 - Removed useless "*backup*" folder.
 - Reorganized mod architecture tree: created folders to sort files according to their types.
 - Included Linux and Mac Os X versions in the same package (thanks AL|EN's Infinity Auto Packager tool!).
@@ -220,7 +223,7 @@ In addition to the methods above for removing individual components, you can com
 
 #### Version 2
 
-- WeiDU-conversion by Badgert.
+- WeiDU conversion by Badgert.
 - Added Russian translation by www.aerie.ru.
 
 ## 
@@ -229,7 +232,3 @@ In addition to the methods above for removing individual components, you can com
 
 - Initial release.
 <div align="right"><a href="#top">Back to top</a></div>
-
-
-
-Translated to weidu by Badgert from www.aerie-ru.info (iklest@narod.ru), works with any other weidu modes.
