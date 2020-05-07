@@ -75,13 +75,15 @@ COPY ~aip/cre/cbringos.cre~ ~override~
 
 COPY ~aip/misc~         ~override~
 
-COPY_EXISTING ~AR0510.bcs~         ~override/ar0510.bcs~
-EXTEND_BOTTOM ~AR0510.BCS~         ~aip/scripts/sAR0510.baf~
+/* ------------------------------- *
+ *  Compiling scripts and dialogs  *
+ * ------------------------------- */
+EXTEND_BOTTOM ~ar0510.bcs~	~aip/scripts/sar0510.baf~
 
 COMPILE ~aip/baf~
 
 COMPILE ~aip/d~
 
-////////////////////////////////////
-//End of Adventures In Papperland
-////////////////////////////////////
+/////////////////////////////////////
+//  End of Adventures In Papperland
+/////////////////////////////////////

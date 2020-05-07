@@ -1,5 +1,5 @@
 IF
-	OnCreation()
+//	OnCreation()
 	Global("BeatleSpawn","AR0510",0)
 THEN
 	RESPONSE #100

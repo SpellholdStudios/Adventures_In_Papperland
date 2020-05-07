@@ -178,6 +178,7 @@ Translated to weidu by Badgert from www.aerie-ru.info (iklest@narod.ru), works w
 - Added component `DESIGNATED` number and "*adventures_in_papperland*" `LABEL`.
 - Added missing `HANDLE_CHARSETS` function to convert string entries for EE games.
 - Added native EET compatibility.
+- sar0510.baf: Included BWP Fixpack hotfix (<a href="http://www.shsforums.net/topic/47635-notes-oddities-and-possible-bugs-in-my-bwp-game-spoilers/?p=566555">Lollorian's methodical OnCreation() removal from blocks that have a LOCALS/GLOBAL associated with them</a>).
 - Added German and Spanish WeiDU prompts.
 - Proofread English translations.
 - Updated Russian translation (thanks Austin!).
