@@ -13,7 +13,7 @@ Baldur's Gate Trilogy and EET<h3>
 
 **Author:** CBisson  
 **Mod Website:** <a href="http://www.shsforums.net/forum/127-mod-resurrections/">Spellhold Studios</a>  
-**Mod Forum:** <a href="">Adventures in Papperland</a>  
+**Mod Forum:** <a href="http://www.shsforums.net/topic/60787-adventures-in-papperland-updated-to-v6/">Adventures in Papperland</a>  
 
 
 [Read the mod's readme](http://spellholdstudios.github.io/readmes/aip-readme.txt)
@@ -53,7 +53,7 @@ This mod adds a few amusing dialogs with a legendary four musicians named "The B
 
 This mod is designed to work on the following Infinity Engine games: the original Baldur's Gate II (BG2 or just SoA) with or without the Throne of Bhaal (ToB) expansion, Baldur's Gate II: Enhanced Edition (BG2:EE), the conversion projects <a href="http://www.shsforums.net/forum/261-bgt-weidu/">Baldur's Gate Trilogy (BGT)</a> and <a href="https://github.com/K4thos/EET/releases">Enhanced Edition Trilogy (EET)</a>.
 
-Adventures in Papperland is a WeiDU mod, and therefore should be compatible with all WeiDU mods. However, we cannot test every single one. If you encounter any bugs, please <a href="">report them on the forum</a>!
+Adventures in Papperland is a WeiDU mod, and therefore should be compatible with all WeiDU mods. However, we cannot test every single one. If you encounter any bugs, please <a href="http://www.shsforums.net/topic/60787-adventures-in-papperland-updated-to-v6/">report them on the forum</a>!
 
 >Although it is not required for the Adventures in Papperland mod to function properly, classical game players are strongly recommended to download and install the latest version of the <a href="http://www.gibberlings3.net/bg2fixpack/">BG2 Fixpack</a> before proceeding with the installation of this mod.<br>
 <div align="right"><a href="#top">Back to top</a></div>
@@ -183,8 +183,8 @@ In addition to the methods above for removing individual components, you can com
 - Added English translation (from the BiG World Textpack German project).
 - Removed useless "*backup*" folder.
 - Reorganized mod architecture tree: created folders to sort files according to their types.
-- Included Linux and Mac Os X versions in the same package (thanks AL|EN's Infinity Auto Packager tool!).
 - Lower cased files.
+- Included Linux and Mac Os X versions in the same package (thanks AL|EN's Infinity Auto Packager tool!).
 - Updated WeiDU installer to v246.
 - Uploaded mod to official Spellhold Studios GitHub mirror account.
 
