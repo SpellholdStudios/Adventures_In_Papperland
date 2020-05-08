@@ -1,6 +1,5 @@
 //THE BEATLES AUTOSCRIPT FOR ALL
 
-
 IF
 	See(NearestEnemyOf(Myself))
 THEN
