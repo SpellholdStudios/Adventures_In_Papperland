@@ -7,6 +7,9 @@ README ~aip/readme-aip.txt~
 
 ALWAYS
 
+	// Determines which game is installed and if the game is an Enhanced Edition.
+	OUTER_SET is_ee = (GAME_IS ~bg2ee eet~) ? 1 : 0	// EE game
+
 	/* --------------------------------------------------------------------------------------------- *
 	 *    Convert strings to UTF-8 for EE games                                                    *
 	 *    No exception, everything needs to be converted                                             *
@@ -57,23 +60,36 @@ REQUIRE_PREDICATE GAME_IS ~bg2 tob bgt bg2ee eet~ @1	// ~You must have BG2, ToB,
 /* ------------------- *
  *  Install creatures  *
  * ------------------- */
+INCLUDE ~%MOF_FOLDER%/lib/gw_install_portraits.tpa~		// Adds portraits installation process.
+
 COPY ~aip/cre/cbgeohar.cre~ ~override~
 	SAY NAME1 @11
 	SAY NAME2 @11
+	LPF~gw_install_portraits~ STR_VAR npc = "cbgeoha" END
+BUT_ONLY
 
 COPY ~aip/cre/cbjohnln.cre~ ~override~
 	SAY NAME1 @12
 	SAY NAME2 @12
+	LPF~gw_install_portraits~ STR_VAR npc = "cbjohnl" END
+BUT_ONLY
 
 COPY ~aip/cre/cbpaulmc.cre~ ~override~
 	SAY NAME1 @13
 	SAY NAME2 @13
+	LPF~gw_install_portraits~ STR_VAR npc = "cbpaulm" END
+BUT_ONLY
 
 COPY ~aip/cre/cbringos.cre~ ~override~
 	SAY NAME1 @14
 	SAY NAME2 @14
+	LPF~gw_install_portraits~ STR_VAR npc = "cbringo" END
+BUT_ONLY
 
-COPY ~aip/misc~         ~override~
+/* ------------------- *
+ *  Install portraits  *
+ * ------------------- */
+COPY ~aip/misc~	~override~
 
 /* ------------------------------- *
  *  Compiling scripts and dialogs  *

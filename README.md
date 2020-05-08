@@ -31,11 +31,9 @@ Baldur's Gate Trilogy and EET<h3>
 
 ## <a name="intro" id="intro"></a>Overview
 
-This mod adds a few amusing dialogs with four musicians named "The Beatles".
+This mod adds a few amusing dialogs with a legendary four musicians named "The Beatles". You can meet them in the Five Flagons Inn Theater. These famous musicians by the will of fate found themselves on Faerun. It's just an unusual meeting and couple of dialogs, no new stuff, spells or quests. 
 
-You can meet and talk to a legendary four - "The Beatles".
-Famous musicians by the will of fate found themselves on Faerun.
-It's just an unusual meeting and couple of dialogs, no new stuff, spells or quests. 
+<img style="float: center;" src="iap/readme/aip.jpg">
 
 <details><summary>Original note from the author</summary>
 <p>
@@ -55,7 +53,7 @@ It's just an unusual meeting and couple of dialogs, no new stuff, spells or ques
 
 This mod is designed to work on the following Infinity Engine games: the original Baldur's Gate II (BG2 or just SoA) with or without the Throne of Bhaal (ToB) expansion, Baldur's Gate II: Enhanced Edition (BG2:EE), the conversion projects <a href="http://www.shsforums.net/forum/261-bgt-weidu/">Baldur's Gate Trilogy (BGT)</a> and <a href="https://github.com/K4thos/EET/releases">Enhanced Edition Trilogy (EET)</a>.
 
-Adventures in Papperland is a WeiDU mod, and therefore should be compatible with all WeiDU mods. However, we cannot test every single one. If you encounter any bugs, please <a href="http://www.shsforums.net/topic/60737-super-firkraag-updated-to-v16-ee-compatible/">report them on the forum</a>!
+Adventures in Papperland is a WeiDU mod, and therefore should be compatible with all WeiDU mods. However, we cannot test every single one. If you encounter any bugs, please <a href="">report them on the forum</a>!
 
 >Although it is not required for the Adventures in Papperland mod to function properly, classical game players are strongly recommended to download and install the latest version of the <a href="http://www.gibberlings3.net/bg2fixpack/">BG2 Fixpack</a> before proceeding with the installation of this mod.<br>
 <div align="right"><a href="#top">Back to top</a></div>
@@ -126,13 +124,11 @@ In addition to the methods above for removing individual components, you can com
 ## <a name="credits" id="credits"></a>Credits and Acknowledgements
 
 **Author:** <a href="http://www.shsforums.net/user/3378-cbisson/">CBisson</a>  
-Translated to weidu by Badgert from www.aerie-ru.info (iklest@narod.ru), works with any other weidu modes.
 
 ## 
 
 #### Special Acknowledgements to:
 
-- Strifestrike: For coming up with the idea for this mod and being one of my original testers.
 - The BiG World Textpack German project Team: English translation.
 - Clan REO Team: Spanish translation.
 - Drogan Di'Umptu: German translation.
@@ -166,7 +162,7 @@ Translated to weidu by Badgert from www.aerie-ru.info (iklest@narod.ru), works w
 
 <hr>
 
-Five Flagons Inn Theater
+
 ## <a name="versions" id="versions"></a>Version History
 
 #### Version 6 ( May 2020)
@@ -177,8 +173,9 @@ Five Flagons Inn Theater
 - Added missing `REQUIRE_PREDICATE` process to avoid installing the mod in inaccurate games.
 - Added component `DESIGNATED` number and "*adventures_in_papperland*" `LABEL`.
 - Added missing `HANDLE_CHARSETS` function to convert string entries for EE games.
-- Added native EET compatibility.
+- Added native BG2:EE and EET compatibilities.
 - sar0510.baf: Included BWP Fixpack hotfix (<a href="http://www.shsforums.net/topic/47635-notes-oddities-and-possible-bugs-in-my-bwp-game-spoilers/?p=566555">Lollorian's methodical OnCreation() removal from blocks that have a LOCALS/GLOBAL associated with them</a>).
+- Added missing portraits and new portraits for EE games.
 - Added German and Spanish WeiDU prompts.
 - Proofread English .tra files.
 - Updated Russian translation (thanks Austin!).

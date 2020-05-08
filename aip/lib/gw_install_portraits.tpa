@@ -1,0 +1,46 @@
+/* ================================================================================================================ *
+ *  FUNCTION gw_install_portraits : Install and patch all necessary files                                           *
+ * ---------------------------------------------------------------------------------------------------------------- *
+ *  Variables :                                                                                                     *
+ *    - npc    = portrait folder and file name.                                                                     *
+ * ================================================================================================================ */
+
+DEFINE_PATCH_FUNCTION ~gw_install_portraits~
+	STR_VAR 
+		npc = ""
+BEGIN
+
+	PATCH_IF '"%npc%" STR_CMP "") BEGIN
+
+		// 0. SETTING Portraits names.
+		// ---------------------------
+		SPRINT small_portrait EVAL "%npc%s"
+		TO_UPPER small_portrait
+		SPRINT medium_portrait EVAL "%npc%m"
+		TO_UPPER medium_portrait
+		PATCH_IF is_ee BEGIN
+			SPRINT small_portrait EVAL "%medium_portrait%"
+			SPRINT medium_portrait EVAL "%npc%l"
+			TO_UPPER medium_portrait
+		END
+
+		// 1. COPYING portraits.
+		// ---------------------
+		INNER_ACTION BEGIN 
+			ACTION_IF is_ee BEGIN
+				COPY ~%MOD_FOLDER%/portraits/%npc%l.bmp~ ~override~
+					 ~%MOD_FOLDER%/portraits/%npc%l.bmp~ ~override/%npc%m.bmp~
+			END ELSE BEGIN
+				COPY ~%MOD_FOLDER%/portraits/%npc%m.bmp~ ~override~
+					 ~%MOD_FOLDER%/portraits/%npc%s.spl~ ~override~
+			END
+		END
+
+		// 2. PATCHING .CRE FILE.
+		// ----------------------
+		WRITE_ASCIIE 0x34 ~%small_portrait%~ #8		// small portrait
+		WRITE_ASCIIE 0x3c ~%medium_portrait%~ #8	// medium portrait
+
+	END
+
+END	// of DEFINE_ACTION_FUNCTION
