@@ -4,7 +4,7 @@ SUPPORT ~Spellhold Studios at http://www.shsforums.net/topic/60787-adventures-in
 
 VERSION ~v5~
 
-README ~aip/readme-aip.txt~
+README ~aip/readme/aip-readme.txt~
 
 ALWAYS
 
@@ -12,7 +12,7 @@ ALWAYS
 	OUTER_SET is_ee = (GAME_IS ~bg2ee eet~) ? 1 : 0	// EE game
 
 	/* --------------------------------------------------------------------------------------------- *
-	 *    Convert strings to UTF-8 for EE games                                                    *
+	 *    Convert strings to UTF-8 for EE games                                                      *
 	 *    No exception, everything needs to be converted                                             *
 	 *    setup.tra contains in game texts as well as installation texts and need to be converted    *
 	 * -----------------------------------------------------------------------*--------------------- */
@@ -86,11 +86,6 @@ COPY ~aip/cre/cbringos.cre~ ~override~
 	SAY NAME2 @14
 	LPF~gw_install_portraits~ STR_VAR npc = "cbringo" END
 BUT_ONLY
-
-/* ------------------- *
- *  Install portraits  *
- * ------------------- */
-COPY ~aip/misc~	~override~
 
 /* ------------------------------- *
  *  Compiling scripts and dialogs  *

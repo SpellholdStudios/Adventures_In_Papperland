@@ -168,12 +168,13 @@ In addition to the methods above for removing individual components, you can com
 #### Version 6 ( May 2020)
 
 - Added *aip.ini* metadata file to support AL|EN's "Project Infinity".
-- Renamed *setup-aip.tp2* -> *aip.tp2* to support AL|EN's "Project Infinity".
+- Renamed *setup-aip.tp2* -> *aip.tp2* and moved it into top folder to support AL|EN's "Project Infinity".
 - Replaced `AUTHOR` keyword with `SUPPORT`.
 - Added missing `REQUIRE_PREDICATE` process to avoid installing the mod in inaccurate games.
 - Added component `DESIGNATED` number and "*adventures_in_papperland*" `LABEL`.
 - Added missing `HANDLE_CHARSETS` function to convert string entries for EE games.
 - Added native BG2:EE and EET compatibilities.
+- Fixed a CTD issue if the mod was installed after Infinity Animations.
 - sar0510.baf: Included BWP Fixpack hotfix (<a href="http://www.shsforums.net/topic/47635-notes-oddities-and-possible-bugs-in-my-bwp-game-spoilers/?p=566555">Lollorian's methodical OnCreation() removal from blocks that have a LOCALS/GLOBAL associated with them</a>).
 - cbpaulmc.d: replaced wrong AMNISE and AMNISE2 BG1 creatures with BG2 AMNG1 and AMNG2 in `CreateCreature` actions.
 - Added missing portraits and new portraits for EE games.
@@ -181,6 +182,7 @@ In addition to the methods above for removing individual components, you can com
 - Proofread English .tra files.
 - Updated Russian translation (thanks Austin!).
 - Added English translation (from the BiG World Textpack German project).
+- Updated, renamed readme file to "*aip-readme.txt*" and moved it into new "*readme*" folder.
 - Removed useless "*backup*" folder.
 - Reorganized mod architecture tree: created folders to sort files according to their types.
 - Lower cased files.
