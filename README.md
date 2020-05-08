@@ -165,7 +165,7 @@ In addition to the methods above for removing individual components, you can com
 
 ## <a name="versions" id="versions"></a>Version History
 
-#### Version 6 ( May 2020)
+#### Version 6.0 (8 May 2020)
 
 - Added *aip.ini* metadata file to support AL|EN's "Project Infinity".
 - Renamed *setup-aip.tp2* -> *aip.tp2* and moved it into top folder to support AL|EN's "Project Infinity".
@@ -174,9 +174,9 @@ In addition to the methods above for removing individual components, you can com
 - Added component `DESIGNATED` number and "*adventures_in_papperland*" `LABEL`.
 - Added missing `HANDLE_CHARSETS` function to convert string entries for EE games.
 - Added native BG2:EE and EET compatibilities.
-- Fixed a CTD issue if the mod was installed after Infinity Animations.
-- sar0510.baf: Included BWP Fixpack hotfix (<a href="http://www.shsforums.net/topic/47635-notes-oddities-and-possible-bugs-in-my-bwp-game-spoilers/?p=566555">Lollorian's methodical OnCreation() removal from blocks that have a LOCALS/GLOBAL associated with them</a>).
-- cbpaulmc.d: replaced wrong AMNISE and AMNISE2 BG1 creatures with BG2 AMNG1 and AMNG2 in `CreateCreature` actions.
+- Fixed an animation issue if the mod was installed after Infinity Animations.
+- sar0510.baf: Included BWP Fixpack hotfix (<a href="http://www.shsforums.net/topic/47635-notes-oddities-and-possible-bugs-in-my-bwp-game-spoilers/?p=566555">Lollorian's methodical OnCreation() removal from blocks that have a `LOCALS/GLOBAL` associated with them</a>).
+- cbpaulmc.d: replaced wrong *AMNISE* and *AMNISE2* BG1 creatures with BG2 *AMNG1* and *AMNG2* in `CreateCreature` actions.
 - Added missing portraits and new portraits for EE games.
 - Added German and Spanish WeiDU prompts.
 - Proofread English .tra files.

@@ -2,7 +2,7 @@ BACKUP ~aip\backup~
 //AUTHOR ~Charles Bisson, Badgert(WeiDU)~
 SUPPORT ~Spellhold Studios at http://www.shsforums.net/topic/60787-adventures-in-papperland-updated-to-v6/~
 
-VERSION ~v5~
+VERSION ~v6.0~
 
 README ~aip/readme/aip-readme.txt~
 
@@ -61,7 +61,7 @@ REQUIRE_PREDICATE GAME_IS ~bg2 tob bgt bg2ee eet~ @1	// ~You must have BG2, ToB,
 /* ------------------- *
  *  Install creatures  *
  * ------------------- */
-INCLUDE ~%MOF_FOLDER%/lib/gw_install_portraits.tpa~		// Adds portraits installation process.
+INCLUDE ~%MOD_FOLDER%/lib/gw_install_portraits.tpa~		// Adds portraits installation process.
 
 COPY ~aip/cre/cbgeohar.cre~ ~override~
 	SAY NAME1 @11

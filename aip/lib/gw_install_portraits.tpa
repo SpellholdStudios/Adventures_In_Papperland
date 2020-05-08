@@ -10,7 +10,7 @@ DEFINE_PATCH_FUNCTION ~gw_install_portraits~
 		npc = ""
 BEGIN
 
-	PATCH_IF '"%npc%" STR_CMP "") BEGIN
+	PATCH_IF ("%npc%" STR_CMP "") BEGIN
 
 		// 0. SETTING Portraits names.
 		// ---------------------------
@@ -32,7 +32,7 @@ BEGIN
 					 ~%MOD_FOLDER%/portraits/%npc%l.bmp~ ~override/%npc%m.bmp~
 			END ELSE BEGIN
 				COPY ~%MOD_FOLDER%/portraits/%npc%m.bmp~ ~override~
-					 ~%MOD_FOLDER%/portraits/%npc%s.spl~ ~override~
+					 ~%MOD_FOLDER%/portraits/%npc%s.bmp~ ~override~
 			END
 		END
 
