@@ -1,5 +1,5 @@
 
-![Latest Release](https://img.shields.io/github/v/release/gwendolynefreddy/adventures_in_papperland?include_prereleases&color=darkred)<a name="top" id="top">
+![Latest Release](https://img.shields.io/github/v/release/SpellholdStudios/Adventures_in_Papperland?include_prereleases&color=darkred)<a name="top" id="top">
 ![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20macos%20%7C%20linux&color=informational)
 ![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20German%20%7C%20Russian%20%7C%20Spanish&color=limegreen)
 
