@@ -33,7 +33,7 @@ Baldur's Gate Trilogy and EET<h3>
 
 This mod adds a few amusing dialogs with a legendary four musicians named "The Beatles". You can meet them in the Five Flagons Inn Theater. These famous musicians by the will of fate found themselves on Faerun. It's just an unusual meeting and couple of dialogs, no new stuff, spells or quests. 
 
-<img style="float: center;" src="iap/readme/aip.jpg">
+<img style="float: center;" src="aip/readme/aip.jpg">
 
 <details><summary>Original note from the author</summary>
 <p>
@@ -175,6 +175,7 @@ In addition to the methods above for removing individual components, you can com
 - Added missing `HANDLE_CHARSETS` function to convert string entries for EE games.
 - Added native BG2:EE and EET compatibilities.
 - sar0510.baf: Included BWP Fixpack hotfix (<a href="http://www.shsforums.net/topic/47635-notes-oddities-and-possible-bugs-in-my-bwp-game-spoilers/?p=566555">Lollorian's methodical OnCreation() removal from blocks that have a LOCALS/GLOBAL associated with them</a>).
+- cbpaulmc.d: replaced wrong AMNISE and AMNISE2 BG1 creatures with BG2 AMNG1 and AMNG2 in `CreateCreature` actions.
 - Added missing portraits and new portraits for EE games.
 - Added German and Spanish WeiDU prompts.
 - Proofread English .tra files.
